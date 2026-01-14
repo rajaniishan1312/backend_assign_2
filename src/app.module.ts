@@ -20,6 +20,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { EnrollmentService } from './enrollment/enrollment.service';
 import { EnrollmentModule } from './enrollment/enrollment.module';
 import { Timetable } from './timetable.entity';
+import { AdminModule } from './admin/admin.module';
 
 
 @Module({
@@ -36,6 +37,7 @@ import { Timetable } from './timetable.entity';
       logging: ['schema'],
     }),
     EnrollmentModule,
+    AdminModule,
   ],
   // providers: [EnrollmentService],
 })
