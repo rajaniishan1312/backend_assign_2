@@ -1,4 +1,3 @@
-Master
 # 📚 Course Enrollment Backend System
 
 This project is a backend system built using **NestJS**, **TypeScript**, and **PostgreSQL** to manage student course enrollments with **timetable clash detection**.
